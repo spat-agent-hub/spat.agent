@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "rewrites": [
     {
       "source": "/(.*)",
@@ -6,9 +7,8 @@
     }
   ],
   "functions": {
-    "api/**/*.py": {
-      "maxDuration": 60,
-      "memory": 1024
+    "api/index.py": {
+      "runtime": "vercel-python@0.0.6"
     }
   }
 }
