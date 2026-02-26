@@ -1,0 +1,48 @@
+# --- CRITICAL: Security & Mainnet Credentials ---
+.env
+.env.local
+.env.production
+.env.mainnet
+*.key
+*.pem
+secrets.json
+# Specifically for Base/EVM mnemonics
+mnemonic.txt
+seed.txt
+
+# --- Node.js / TypeScript (Base SDKs) ---
+node_modules/
+dist/
+build/
+.npm
+*.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- Python (Agent Logic/AI) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env.python
+Pipfile.lock
+poetry.lock
+
+# --- Ethereum/Base Development Tools ---
+# Hardhat / Foundry / Truffle
+artifacts/
+cache/
+typechain/
+typechain-types/
+out/
+.openzeppelin/
+# Deployment logs often contain sensitive addresses/data
+broadcast/
+deployments/
+
+# --- System & IDE ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
