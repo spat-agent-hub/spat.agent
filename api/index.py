@@ -1,6 +1,6 @@
 import os
 from fastmcp import FastMCP
-from api.utils import is_active_subscriber
+from .utils import is_active_subscriber
 
 mcp = FastMCP("Spat Agent Base")
 
