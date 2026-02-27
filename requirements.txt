@@ -1,17 +1,7 @@
-# Web Framework & MCP
-fastmcp>=0.1.0
-fastapi>=0.115.0
-uvicorn>=0.30.0
-
-# Blockchain & API Logic
-web3==7.14.1
-requests>=2.32.0
-python-dotenv>=1.0.1
-
-# Validation
-pydantic>=2.9.0
-pydantic-settings>=2.4.0
-
-# Optional: Streamlit for your local/cloud dashboard
-streamlit>=1.40.0
-pandas>=2.2.0
+fastmcp>=3.0.0
+fastapi
+uvicorn
+web3
+requests
+python-dotenv
+httpx
